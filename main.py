@@ -26,7 +26,7 @@ from patch_data import patch_product_data
     This function generates two .csv files where the items can be examined after execution.'''
 
 def main(data):
-    # Get the product data for all selected establishments. ***Running against all est by default. Variable in config***
+    # Get the product data for all selected establishments
     all_product_data = fetch_data_in_parallel(data)
 
     # Converts the list of items into a dataframe
